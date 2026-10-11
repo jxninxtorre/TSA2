@@ -1,21 +1,17 @@
-# Point of Sale (POS) System — CodeIgniter 4
+# TSA2 - Task Management System
 
-Isang web-based Point of Sale (POS) application na binuo gamit ang **CodeIgniter 4** framework at **MySQL** database para sa Formative Assessment (TFA2).
-
----
-
-## 🛠️ Tech Stack & Requirements
-
-* **PHP:** Version 8.1 o mas mataas
-* **Framework:** CodeIgniter 4
-* **Database:** MySQL / MariaDB (XAMPP)
-* **Web Server:** Apache (XAMPP)
+A web-based Task Management Application built with **CodeIgniter 4**, featuring full CRUD operations, authentication filters, validation controls, and soft-delete/archiving capabilities.
 
 ---
 
-## 🚀 Local Installation & Setup
+## Features
 
-Sundin ang mga hakbang na ito para ma-run ang project sa iyong local machine:
+- ** Authentication & Access Control:**
+  - Public routes for viewing task lists and general pages.
+  - Protected task creation, editing, updating, and archiving via `AuthFilter`.
+  
+- ** Task Management (CRUD):**
+  - **Create:** Add new tasks with validation rules for title and date.
 
 ### 1. Clone o Download ang Repository
 ```bash
